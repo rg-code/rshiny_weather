@@ -1,4 +1,4 @@
-ibrary(shiny)
+library(shiny)
 
 # Preprocessing and summarizing data
 library(dplyr)
