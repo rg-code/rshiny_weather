@@ -14,7 +14,7 @@ source("viz_temps.R")
 # Define server logic required to draw a histogram
 shinyServer(function(input, output) {
   
-  output$DublinTemps <- renderPlot({
+  output$MercedTemps <- renderPlot({
     viztemps(input$start_year,
              input$hide_hilows,
              input$hide_avgs
